@@ -1,0 +1,527 @@
+*{
+	margin: 0;
+	padding: 0;
+	font-family: 微软雅黑;
+}
+ul{
+	list-style: none;
+}
+body{
+	width: 100%;
+	font-size: 16px;
+	position: relative;
+}
+.frist{
+	width: 100%;
+	position: relative;
+}
+.frist img{
+	display: block;
+	width: 100%;
+	z-index: -2;
+}
+.frist .nav{
+	width: 85%;
+	height: 90px;
+	background-color: #acaca9;
+    position: absolute;
+    top: 0%;
+    left: 7.5%;
+    overflow: hidden;
+    min-height: 10%;
+    max-height: 10%;
+}
+.frist .nav .left{
+	width: 7%;
+	height: 100%;
+	background-color: #938e77;
+	position: absolute;
+	left: 0;
+}
+.frist .nav .left img{
+	display: block;
+	width: 36%;
+	position: absolute;
+	top: 30%;
+	left: 32%;
+	z-index: 0;
+	cursor: pointer;
+	background: none;
+}
+.frist .nav .left span{
+	position: absolute;
+	top: 30%;
+	left: 32%;
+}
+.frist .nav .middle{
+	width: 50%;
+    height: 60%;
+    overflow: hidden;
+    position: absolute;
+    left: 10%;
+    top: 30%;
+}
+.frist .nav .middle li{
+	color: #fff;
+	cursor: pointer;
+	width: 20%;
+	height: 100%;
+	text-align: center;
+	float: left;
+	overflow: hidden;
+}
+.frist .nav .right{
+	width: 12%;
+	height: 100%;
+	position: absolute;
+	right: 0;
+}
+.frist .nav .right img{
+	display: block;
+	width: 80%;
+	position: absolute;
+	right: 15%;
+	top: 20%;
+	cursor: pointer;
+	z-index: 0;	
+}
+.frist .nav .right span{
+	position: absolute;
+	top: 20%;
+	right: 15%;
+}
+
+.frist h1{
+	display: block;
+	width: 100%;
+	height: 120px;
+	font-size: 80px;
+	text-align: center;
+	color: #fff;
+	position: absolute;
+    top: 20%;
+}
+
+.frist .claritas{
+	width: 90%;
+	height: 500px;
+	position: absolute;
+	bottom: -250px;
+	left: 6%;
+}
+.frist .claritas li{
+	width: 23%;
+	height: 100%;
+	float: left;
+	margin: 0 0.7%;
+	overflow: hidden;
+	position: relative; 
+}
+.frist .claritas li div{
+	width: 100%;
+	height: 50%;
+	position: relative;
+}
+.frist .claritas li .top img{
+	display: block;
+	width: 20%;
+	position: absolute;
+	bottom: 60%;
+	left: 40%;
+	z-index: 0;
+}
+.frist .claritas li .top span{
+	position: absolute;
+	bottom: 60%;
+	left: 40%;
+}
+.frist .claritas li .top p{
+	display: block;
+	width: 100%;
+	height: 30%;
+	color: #fff;
+	text-align: center;
+	position: absolute;
+	bottom: 0;
+}
+.frist .claritas li .bottom p{
+	display: block;
+	width: 100%;
+	height: 10%;
+	overflow: hidden;
+	text-align: center;
+	position: absolute;
+	top: 15%;
+}
+.frist .claritas li .bottom div{
+	width: 92%;
+	height: 50%;
+	color: #babfc2;
+	text-align: center;
+	font-size: 13px;
+	position: absolute;
+	top: 30%;
+	left: 4%;
+}
+.frist .claritas li .bottom img{
+	display: block;
+	width: 20%;
+	position: absolute;
+	bottom: 0;
+	right: -1px;
+	z-index: 0;
+}
+.frist .claritas li .bottom span{
+	position: absolute;
+	bottom: 0;
+	right: -1px;
+}
+.frist .claritas .one .top{
+	background-color: rgb(138, 103, 53);
+}
+.frist .claritas .two .top{
+	background-color: rgb(166, 26, 47);
+}
+.frist .claritas .three .top{
+	background-color: rgb(179, 162, 123);
+}
+.frist .claritas .four .top{
+	background-color: rgb(28, 21, 8);
+}
+.frist .claritas li .top{
+	opacity: 0.65;
+	filter: alpha(opacity = 65);
+}
+.frist .claritas li .bottom{
+	background-color: #fff;
+}
+
+
+.second{
+	display: block;
+	width: 100%;
+	height: 600px;
+	position: relative;
+	z-index: -1;
+	background-color: #f0f0f0;
+	overflow: hidden;
+}
+.second div{
+	width: 87%;
+	height: 200px;
+	position: absolute;
+	left: 6.5%;
+	bottom: 75px;
+}
+.second div img{
+	display: block;
+	height: 100%;
+	position: absolute;
+	top: 0;
+	z-index: 1;
+}
+.second div .left{
+	left: 0;
+}
+.second div .right{
+	right: 0;
+}
+.second div div{
+	width: 50%;
+	height: 84%;
+	color: #6e707b;
+	overflow: hidden;
+	top: 8%;
+	left: 25%;
+	z-index: 3;
+}
+.second div div h3{
+	display: block;
+	width: 100%;
+	height: 50%;
+	text-align: center;
+    overflow: hidden;
+}
+.second div div p{
+	display: block;
+	width: 100%;
+	height: 100%;
+	text-align: center;
+	font-size: 14px;
+    overflow: hidden;
+}
+
+
+.third{
+	width: 100%;
+	height: 400px;
+	position: relative;
+	overflow: hidden;
+}
+.third div {
+	width: 90%;
+	height: 300px;
+	position: absolute;
+	left: 6%;
+	top: 50px;
+}
+.third div div{
+	width: 32%;
+	height: 100%;
+	color: #fff;
+	overflow: hidden;
+	top: 0;
+}
+.third div .left{
+	left: 0;
+	background-color: #84754e;
+}
+.third div .middle{
+	left: 33.3%;
+	background-color: #a6192e;
+}
+.third div .right{
+	left: 66.6%;
+	background-color: #000;
+}
+.third div div img{
+	display: block;
+	width: 100%;
+}
+.third div div h2{
+	display: block;
+	width: 100%;
+	height: 15%;
+	text-align: center;
+	line-height: 2em;
+	position: absolute;
+	bottom: 0;
+	overflow: hidden;
+}
+.third div .left h2{
+	background-color: #84754e;
+}
+.third div .middle h2{
+	background-color: #a6192e;
+}
+.third div .right h2{
+	line-height: 1.2em;
+	height: 30%;
+	bottom: 50%;
+}
+.third div .right p{
+	height: 40%;
+    width: 90%;
+    text-align: center;
+    position: absolute;
+    top: 55%;
+    left: 5%;
+    font-size: 13px;
+    overflow: hidden;
+}
+
+
+.fourth{
+	width: 100%;
+	overflow: hidden;
+}
+.fourth .top{
+	width: 100%;
+	color: #ffe;
+	overflow: hidden;
+	position: relative;
+}
+.fourth .top img{
+	width: 100%;
+}
+.fourth .top h2{
+	display: block;
+	width: 60%;
+	text-align: center;
+	overflow: hidden;
+	position: absolute;
+	top: 15%;
+	left: 20%;
+}
+.fourth .top p{
+	display: block;
+	width: 72%;
+	font-size: 15px;
+	text-align: center;
+	overflow: hidden;
+	position: absolute;
+	top: 35%;
+	left: 14%;
+}
+.fourth .top div{
+	display: block;
+	width: 72%;
+	font-size: 15px;
+	text-align: center;
+	overflow: hidden;
+	position: absolute;
+	top: 60%;
+	left: 14%;
+}
+.fourth .middle{
+	height: 170px;
+	width: 100%;
+	position: relative;
+}
+.fourth .middle h2{
+	height: 25%;
+	color: #a72c58;
+	position: absolute;
+	top: 25%;
+    left: 5%;
+}
+.fourth .middle p{
+	height: 40%;
+	width: 35%;
+	color: #c5bbb9;
+	overflow: hidden;
+	position: absolute;
+	top: 50%;
+	left: 5%;
+}
+.fourth .bottom{
+	height: 350px;
+	width: 90%;
+	overflow: hidden;
+	margin: 10px auto;
+}
+.fourth .bottom div{
+    width: 23%;
+    height: 100%;
+    margin: 0 0.5%;
+    float: left;
+    position: relative;
+}
+.fourth .bottom div h4{
+	overflow: hidden;
+}
+.fourth .bottom div h5{
+	overflow: hidden;
+	color: #834c40;
+}
+.fourth .bottom div img{
+	display: block;
+	width: 100%;
+	max-height: 50%;
+}
+.fourth .bottom div p{
+	height: 35%;
+	font-size: 13px;
+	overflow: hidden;
+	color: #555;
+}
+.fourth .bottom div .logo{
+	width: 8%;
+	height: auto;
+	position: absolute;
+    bottom: 6%;
+    left: 0;
+}
+
+.fifth{
+	width: 100%;
+	height: 350px;
+	color: #fff;
+	background-color: #515151;
+	padding-top: 30px; 
+	position: relative;
+}
+.fifth div{
+	
+}
+.fifth .left{
+	height: 90%;
+	width: 20%;
+	overflow: hidden;
+	position: absolute;
+	left: 4%;
+}
+.fifth .middle{
+	height: 90%;
+	width: 20%;
+	overflow: hidden;
+	position: absolute;
+	left: 26%;
+}
+.fifth .right{
+    height: 90%;
+    width: 48%; 
+    overflow: hidden;
+    position: absolute;
+    left: 48%;
+}
+.fifth div h2{
+	display: block;
+	width: 100%;
+	height: 17%;
+    overflow: hidden;
+}
+.fifth div p{
+	display: block;
+	height: 30%;
+	width: 100%;
+	color: #8b8b8b;
+	font-size: 13px;
+	overflow: hidden;
+}
+.fifth .middle div{
+	height: 6.7%;
+	width: 100%;
+	color: #8b8b8b;
+	font-size: 15px;
+	overflow: hidden;
+}
+.fifth .right input{
+	display: block;
+	outline: none;
+	border: none;
+	text-indent: 1em;
+	font-size: 13px;
+	line-height: 30px;
+	color: #7b7b7b;
+	width: 40%;
+	height: 35px;
+	margin-right: 2%;
+	margin-bottom: 12px; 
+	float: left;
+} 
+.fifth .right textarea{
+	display: block;
+	outline: none;
+	border: none;
+	text-indent: 1em;
+	font-size: 12px;
+	line-height: 20px;
+	color: #7b7b7b;
+	width: 82%;
+	height: 90px;
+	margin-bottom: 12px; 
+}
+.fifth .right button{
+	display: block;
+	width: 10%;
+	margin-right: 70%;
+	height: 35px;
+	border: none;
+	outline: none;
+	cursor: pointer;
+	line-height: 35px;
+	color: #fff;
+	overflow: hidden;
+	background-color: #7b7b7b;
+}
+
+.final{
+	width: 100%;
+	height: 45px;
+	background-color: #343b41;
+	text-align: center;
+	line-height: 45px;
+	font-size: 14px;
+	color: #fff;
+}
